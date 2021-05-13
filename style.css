@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .body {
+    color: black;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+  }
