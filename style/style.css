@@ -20,3 +20,44 @@
     width: 100%;
     margin: 0px auto;
   }
+  .nav__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-bottom: 32px;
+  }
+  .nav__items{
+    display: flex;
+  }
+  .nav__item{
+  color: #31529A;
+  margin-left: 39px;
+  }
+  .nav-color{
+    color: #31529A;
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+  }
+  .nav__item:first-child{
+    margin-left: 0;
+  }
+  .nav__item:hover{
+    background: #F2F2F2;
+    padding: 16px 7px;
+    border-radius: 10px;
+  }
+  .lang__logo{
+    display: flex;
+    align-items: center;
+    color: #31529A;
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+  }
+  .lang__vector{
+    padding-left: 16px;
+  }
+ 
+  
