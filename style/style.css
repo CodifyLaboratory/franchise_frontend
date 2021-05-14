@@ -68,3 +68,23 @@ ul {
   line-height: 24px;
   outline: none;
 }
+
+.value {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.value__text {
+  align-items: center;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.value__title {
+  text-align: center;
+}
+
+.value__box {
+  background: #31529a;
+  border-radius: 20px;
+}
