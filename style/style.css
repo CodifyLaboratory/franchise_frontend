@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -78,7 +78,6 @@ ul {
   margin-bottom: 40px;
   font-style: normal;
   color: #31529a;
-  
 }
 
 .value__boxes {
@@ -126,23 +125,68 @@ ul {
 
 .review__title {
   text-align: center;
-  margin-bottom: 128px;
- 
+  margin-bottom: 88px;
   color: #31529a;
 }
+
+.review__box {
+  max-width: 278px;
+  width: 100%;
+  min-height: 120px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-top: 84px;
+  border: 1px solid red;
+}
+
+.review__subtitle {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #31529a;
+  padding-left: 66px;
+}
+.review__descr {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #112859;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
 .review__images {
   display: flex;
   background: #31529a;
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 100%;
+  min-height: 270px;
 }
 
+.review__img-1 {
+  margin-left: 0px;
+  margin-top: 45px;
+}
 .review__img-2 {
   margin-left: 175px;
+  margin-top: 55px;
 }
 
 .review__img-3 {
   margin-left: 175px;
+  margin-top: 55px;
 }
 
 .review__img-4 {
   margin-left: 175px;
+  margin-top: 55px;
+  padding-right: 130px;
 }
