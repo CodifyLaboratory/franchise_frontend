@@ -41,7 +41,7 @@
     </nav>
 
     <div class="header">
-       
+       <img src="./images/back__header.png" alt="" class="header__back">
     </div>
 
 
@@ -49,26 +49,35 @@
     
     <script>
         function local(){
-    var lang=document.getElementById('local')
-    var menu=document.getElementsByClassName('menu')
-    switch (lang.value){
-        case 'en':
-            menu[0].text='About us';
-            break;
+            var lang=document.getElementById('local');
+            var menu=document.getElementsByClassName('menu');
+            switch (lang.value){
+                case 'en':
+                    menu[0].text='About us';
+                    menu[1].text='Komand';
+                    menu[2].text='Franchaizing';
+                    menu[3].text='Otzuvy';
+                    menu[4].text='Call';
+                    break;
 
-        case 'ru':
-            menu[0].text='О нас';
-            break;
+                case 'ru':
+                    menu[0].text='О нас';
+                    menu[1].text='Команда';
+                    menu[2].text='Франчайзинг';
+                    menu[3].text='Отзывы';
+                    menu[4].text='Контакты';
+                    break;
 
-        case 'ky':
-            menu[0].text='Биз жонундо';
-            break;
+                case 'ky':
+                    menu[0].text='Биз жонундо';
+                    menu[1].text='Команда';
+                    menu[2].text='Франчайзинг';
+                    menu[3].text='Отзывы';
+                    menu[4].text='Контакты';
+                    break;
 
-        default:
-            menu[0].text='хз что';
-
-    }
-}
+            }
+        }
     </script>
 </body>
 </html>
