@@ -78,7 +78,7 @@ ul {
   margin-bottom: 40px;
   font-style: normal;
   color: #31529a;
- }
+}
 
 .value__boxes {
   display: flex;
@@ -119,21 +119,18 @@ ul {
   text-align: center;
 }
 
-.review__images{
+.review__images {
   display: flex;
-  
-  border: 1px solid red;
-
 }
 
-.review__img-2{
+.review__img-2 {
   margin-left: 175px;
 }
 
-.review__img-3{
+.review__img-3 {
   margin-left: 175px;
 }
 
 .review__img-4 {
   margin-left: 175px;
-} 
+}
