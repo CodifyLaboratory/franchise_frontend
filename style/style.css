@@ -118,7 +118,6 @@ ul {
 
 .review {
   display: inline-block;
-
 }
 
 .review__title {
@@ -167,7 +166,6 @@ ul {
   display: flex;
   background: #31529a;
   box-sizing: border-box;
- 
 }
 
 .review__img-1 {
@@ -253,4 +251,17 @@ ul {
 .cform__box {
   display: flex;
   justify-content: center;
+}
+
+.cform__text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+
+.cform__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
 }
