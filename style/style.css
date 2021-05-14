@@ -118,6 +118,7 @@ ul {
 
 .review {
   display: inline-block;
+
 }
 
 .review__title {
@@ -160,12 +161,13 @@ ul {
 }
 
 .review__images {
-  display: flex;
-  background: #31529a;
-  box-sizing: border-box;
   max-width: 1440px;
   width: 100%;
   min-height: 270px;
+  display: flex;
+  background: #31529a;
+  box-sizing: border-box;
+ 
 }
 
 .review__img-1 {
@@ -236,4 +238,19 @@ ul {
   line-height: 24px;
   text-align: center;
   color: #31529a;
+}
+
+.cform__content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #31529a;
+  border-radius: 20px;
+  max-width: 1180px;
+  min-height: 512px;
+}
+
+.cform__box {
+  display: flex;
+  justify-content: center;
 }
