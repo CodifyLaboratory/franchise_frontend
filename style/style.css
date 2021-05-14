@@ -80,10 +80,6 @@ ul {
   border: 1px solid red;
 }
 
-.value__title {
-  text-align: center;
-}
-
 .value__boxes{
   display: flex;
 }
@@ -91,5 +87,6 @@ ul {
 .value__box {
   background: #31529a;
   border-radius: 20px;
+  color: white;
 }
 
