@@ -78,6 +78,7 @@ ul {
   margin-bottom: 40px;
   font-style: normal;
   color: #31529a;
+  
 }
 
 .value__boxes {
@@ -119,8 +120,19 @@ ul {
   text-align: center;
 }
 
+.review {
+  display: inline-block;
+}
+
+.review__title {
+  text-align: center;
+  margin-bottom: 128px;
+ 
+  color: #31529a;
+}
 .review__images {
   display: flex;
+  background: #31529a;
 }
 
 .review__img-2 {
