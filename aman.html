@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="./style/style.css">
     <title>Franchise frntend</title>
+
 </head>
 <body>
 
@@ -20,23 +21,54 @@
             <a href="" class="nav__logo"> <img src="./images/Codify logo — синий 1.svg" alt=""></a>
             <ul class="nav__items">
                 <li class="nav__item">
-                     <a class="nav-color" href="#">О нас</a> </li>
+                     <a class="nav-color menu" href="#">О нас</a> </li>
                 <li class="nav__item">
-                     <a class="nav-color" href="#">Команда</a></li>
+                     <a class="nav-color menu" href="#">Команда</a></li>
                 <li class="nav__item">
-                     <a class="nav-color"  href="#">Франчайзинг</a></li>
+                     <a class="nav-color menu"  href="#">Франчайзинг</a></li>
                 <li class="nav__item">
-                     <a class="nav-color"  href="#">Отзывы</a></li>
+                     <a class="nav-color menu"  href="#">Отзывы</a></li>
                 <li class="nav__item">
-                     <a class="nav-color"  href="#">Контакты</a></li>
+                     <a class="nav-color menu"  href="#">Контакты</a></li>
          </ul>
 
-         <a href="" class="lang__logo">RU <img class="lang__vector" src="./images/Vector.png" alt=""></a>
+         <select name="local" id="local" onchange="local()">
+            <option value="ru">RU</option>
+            <option value="ky">KY</option>
+            <option value="en">EN</option>
+        </select>
         </div>
     </nav>
 
     <div class="header">
        
     </div>
+
+
+
+    
+    <script>
+        function local(){
+    var lang=document.getElementById('local')
+    var menu=document.getElementsByClassName('menu')
+    switch (lang.value){
+        case 'en':
+            menu[0].text='About us';
+            break;
+
+        case 'ru':
+            menu[0].text='О нас';
+            break;
+
+        case 'ky':
+            menu[0].text='Биз жонундо';
+            break;
+
+        default:
+            menu[0].text='хз что';
+
+    }
+}
+    </script>
 </body>
 </html>
