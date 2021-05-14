@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .body {
@@ -84,7 +84,12 @@ ul {
   text-align: center;
 }
 
+.value__boxes{
+  display: flex;
+}
+
 .value__box {
   background: #31529a;
   border-radius: 20px;
 }
+
