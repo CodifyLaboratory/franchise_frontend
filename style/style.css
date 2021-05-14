@@ -69,6 +69,7 @@ ul {
 .value {
   max-width: 1200px;
   width: 100%;
+  margin-bottom: 80px;
 }
 
 .value__text {
@@ -78,7 +79,7 @@ ul {
   font-style: normal;
   color: #31529a;
  }
- 
+
 .value__boxes {
   display: flex;
   flex-wrap: wrap;
@@ -117,3 +118,22 @@ ul {
   align-items: center;
   text-align: center;
 }
+
+.review__images{
+  display: flex;
+  
+  border: 1px solid red;
+
+}
+
+.review__img-2{
+  margin-left: 175px;
+}
+
+.review__img-3{
+  margin-left: 175px;
+}
+
+.review__img-4 {
+  margin-left: 175px;
+} 
