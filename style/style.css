@@ -4,13 +4,15 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
 a {
   text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+body {
+  background-image: url(../images/back__all.png);
 }
 .container {
   max-width: 1200px;
@@ -19,6 +21,10 @@ ul {
 }
 .nav {
   background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 25;
 }
 .nav__content {
   display: flex;
@@ -29,10 +35,12 @@ ul {
 }
 .nav__items {
   display: flex;
+  align-items: center;
 }
 .nav__item {
   color: #31529a;
   margin-left: 39px;
+  padding: 16px 7px;
 }
 .nav-color {
   color: #31529a;
@@ -45,7 +53,6 @@ ul {
 }
 .nav__item:hover {
   background: #f2f2f2;
-  padding: 16px 7px;
   border-radius: 10px;
 }
 .lang__logo {
@@ -64,6 +71,247 @@ ul {
   font-size: 20px;
   line-height: 24px;
   outline: none;
+  border: none;
+  color: #31529a;
+}
+
+.header {
+  position: relative;
+  padding-top: 121px;
+}
+.header__back {
+  position: absolute;
+  z-index: -1;
+}
+.header__img {
+  position: absolute;
+  right: 0;
+  bottom: -26%;
+  
+}
+.header__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  color: #31529a;
+  padding-bottom: 49px;
+  padding-top: 105px;
+}
+.header__desck {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+  color: #31529a;
+  padding-bottom: 95px;
+}
+.btn {
+  background: radial-gradient(
+    168.75% 168.75% at 50% 0%,
+    #d90505 0%,
+    #000000 100%
+  );
+  border-radius: 10px;
+  padding: 12px 20px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.business__content {
+  margin-top: 229px;
+}
+.bus__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #31529a;
+}
+.bus__cards {
+  margin-top: 59px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.bus__card {
+  background: #31529a;
+  border-radius: 20px;
+  max-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 215px;
+  height: 100%;
+}
+.bus__img {
+  max-width: 80px;
+  width: 100%;
+  padding-bottom: 29px;
+  margin-top: 18px;
+}
+.bus_descr {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+.academy__content {
+  margin-top: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.academy__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #31529a;
+  text-align: center;
+  padding-bottom: 33px;
+}
+.academy__descr {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #112859;
+}
+.academy__img {
+  padding-left: 113px;
+}
+.numbers__content {
+  margin-top: 61px;
+}
+.numbers__card {
+  background: #31529a;
+  border-radius: 20px;
+  max-width: 180px;
+  width: 100%;
+  margin-left: 20px;
+}
+.numbers__card:first-child {
+  margin-left: 0;
+}
+.numbers__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #31529a;
+  margin-bottom: 40px;
+}
+.numbers__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.numbers__card-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+.numbers__card-descr {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+}
+.comand__content {
+  margin-top: 80px;
+}
+.comand__title {
+  margin-bottom: 48px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #31529a;
+  text-align: center;
+}
+.comand__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.comand__card {
+  background: #31529a;
+  border-radius: 20px;
+  max-width: 280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+.comand__card:first-child {
+  margin-left: 0;
+}
+.comand__img {
+  width: 120px;
+  padding-top: 24px;
+}
+.comand__card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 45px;
+}
+.comand__card-descr {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.fransh__title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #31529a;
+  margin-top: 80px;
+}
+.fransh__title:nth-child(2) {
+  margin-top: 40px;
+}
+.fransh__info {
+  display: flex;
+}
+.fransh_photo {
+  margin-right: 20px;
+}
+.fransh_photo:nth-child(2) {
+  margin-right: none;
+  margin-left: 20px;
+}
+.fransh__info-descr {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #112859;
+}
+.fransh__line {
+  margin-top: 20px;
+}
+.fransh__btn {
+  display: inline-block;
+  background: #31529a;
+  max-width: 230px;
+  width: 100%;
+  margin-top: 36px;
+  margin-bottom: 39px;
 }
 
 .franchise {
