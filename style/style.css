@@ -573,10 +573,11 @@ body {
 
 
 
-
+.footer{
+  background-color: #1e3464;
+}
 .footer__content {
   display: flex;
-  background-color: #1e3464;
   justify-content: space-between;
 }
 
