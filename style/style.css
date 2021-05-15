@@ -261,7 +261,54 @@ ul {
 
 .cform__title {
   font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.cform__input {
+  padding-bottom: 40px;
+  padding-right: 21px;
+  border-radius: 10px;
+}
+
+.cform__input-box {
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  width: 480px;
+  height: 53px;
+  padding: 20px;
+}
+
+.cform__text {
+  border-radius: 15px;
+  margin-bottom: ;
+}
+
+.cform__btn {
+  border: 0px;
+  margin: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 58px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2em;
+  background: radial-gradient(
+    168.75% 168.75% at 50% 0%,
+    #d90505 0%,
+    #000000 100%
+  );
+  border-radius: 10px;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: 18px;
+  line-height: 28px;
+  position: static;
+  padding-bottom: 12px;
 }
