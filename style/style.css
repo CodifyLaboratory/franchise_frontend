@@ -313,3 +313,24 @@ ul {
   position: static;
   padding-bottom: 12px;
 }
+
+.footer__content{
+  display: flex;
+  background-color: #1E3464;
+  justify-content: space-between;
+}
+
+
+.footer__menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer__menu-list{
+  color: white;
+  }
+
+.footer__menus {
+  color: white;
+}
