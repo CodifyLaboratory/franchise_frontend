@@ -277,6 +277,10 @@ body {
   padding-bottom: 40px;
 }
 
+.fransh__content{
+  margin-top: 140px;
+}
+
 .fransh__title {
   margin-bottom: 40px;
   text-align: center;
@@ -295,6 +299,9 @@ body {
 .fransh_photo {
   margin-right: 20px;
 }
+
+
+
 .fransh_photo:nth-child(2) {
   margin-right: none;
   margin-left: 20px;
@@ -305,9 +312,15 @@ body {
   line-height: 24px;
   color: #112859;
 }
+
+.fransh__info-img{ 
+  width: 380px;
+  height: 225px;
+}
 .fransh__line {
   margin-top: 20px;
 }
+
 .fransh__btn {
   display: inline-block;
   background: #31529a;
