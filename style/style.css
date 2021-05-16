@@ -315,8 +315,9 @@ body {
 
 .fransh__info-img{ 
   width: 380px;
-  height: 225px;
+  height: auto;
 }
+
 .fransh__line {
   margin-top: 20px;
 }
