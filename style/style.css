@@ -230,7 +230,7 @@ body {
   text-align: center;
 }
 .comand__content {
-  margin-top: 80px;
+  margin-top: 140px;
 }
 .comand__title {
   margin-bottom: 48px;
@@ -243,6 +243,7 @@ body {
 .comand__cards {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 .comand__card {
   background: #31529a;
