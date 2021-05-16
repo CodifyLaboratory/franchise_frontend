@@ -87,7 +87,6 @@ body {
   position: absolute;
   right: 0;
   bottom: -26%;
-  
 }
 .header__title {
   font-style: normal;
@@ -363,9 +362,10 @@ body {
   text-align: center;
 }
 
+
 .review__title {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 128px;
   color: #31529a;
 }
 
@@ -378,8 +378,17 @@ body {
   margin-left: 100px;
   margin-top: 84px;
   border: 1px solid red;
-  position:absolute;
-  top: 10%;
+  position: absolute;
+  top: -65%;
+}
+
+.review__images {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 270px;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .review__subtitle {
@@ -403,16 +412,11 @@ body {
   padding-left: 8px;
   padding-top: 8px;
 }
-
-.review__images {
-  max-width: 1440px;
+.review__bg {
   width: 100%;
-  min-height: 270px;
   display: flex;
   background: #31529a;
-  box-sizing: border-box;
 }
-
 .review__img-1 {
   margin-left: 0px;
   margin-top: 45px;
@@ -503,7 +507,6 @@ body {
 
 .cform__text {
   color: #ffffff;
-  
 }
 
 .cform__title {
@@ -522,7 +525,6 @@ body {
 
 .cform__input:last-child {
   padding-bottom: 0px;
-
 }
 .cform__input-box {
   box-sizing: border-box;
@@ -535,17 +537,13 @@ body {
   padding: 20px;
 }
 
-
-.cform__text {
+.cform__comment{
+  height: 100%;
+}
+textarea{
   height: 100%;
   border-radius: 15px;
 }
-
-.cform__textarea{
-  height:100%;
-  
-}
-
 .cform__btn {
   border: 0px;
   margin: 0px;
@@ -571,9 +569,7 @@ body {
   padding-bottom: 12px;
 }
 
-
-
-.footer{
+.footer {
   background-color: #1e3464;
 }
 .footer__content {
@@ -609,7 +605,7 @@ body {
   padding-bottom: 20px;
 }
 
-.footer__right{
+.footer__right {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -623,17 +619,16 @@ body {
   padding-right: 70px;
 }
 
-.footer__arrow{
+.footer__arrow {
   /* margin-top: 203px;
   margin-bottom: 40px; */
-
+  padding-left: 50px;
   display: flex;
   justify-content: flex-end;
 }
-.footer__arrow-icon{
+.footer__arrow-icon {
   box-sizing: border-box;
   background: #31529a;
   border-radius: 50px;
   padding: 18px;
-  
 }
