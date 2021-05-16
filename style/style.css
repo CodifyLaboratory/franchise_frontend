@@ -160,8 +160,12 @@ body {
   color: white;
   text-align: center;
 }
+
+.academy{
+  margin-top: 80px;
+}
 .academy__content {
-  margin-top: 87px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -544,6 +548,7 @@ a[Далее]:hover::after{
   max-width: 1180px;
   min-height: 512px;
   margin-bottom: 80px;
+  margin-top: 40px;
 }
 
 .cform__box {
