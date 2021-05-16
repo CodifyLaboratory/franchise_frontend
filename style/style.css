@@ -327,12 +327,11 @@ body {
   color: #31529a;
 }
 
-.franchise__title{
+.franchise__title {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
 }
-
 
 .franchise__boxes {
   display: flex;
@@ -399,6 +398,26 @@ body {
   position: absolute;
   top: -60%;
 }
+
+/* a[Далее] {
+  position: relative;
+}
+a[Далее]::after {
+  content: "Read this: ";
+  background: green;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-top: 84px;
+  position: absolute;
+  white-space:nowrap;
+  transform: scale(0);
+  transition: ease-out 150ms;
+
+}
+
+a[Далее]:hover::after{
+  transform: scale(1)
+} */
 
 .review__images {
   max-width: 1440px;
@@ -469,9 +488,8 @@ body {
 .question__text {
   color: #31529a;
   margin-bottom: 40px;
-  
 }
-.question__title{
+.question__title {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
@@ -621,16 +639,14 @@ textarea {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
 }
 
 .footer__menu-list:last-child {
   margin-left: 127px;
 }
-  
+
 .footer__menus {
   color: white;
- 
 }
 
 .footer__menu-title {
