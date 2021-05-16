@@ -316,6 +316,7 @@ body {
 .franchise {
   width: 100%;
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .franchise__text {
@@ -324,10 +325,14 @@ body {
   margin-bottom: 40px;
   font-style: normal;
   color: #31529a;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 34px;
 }
+
+.franchise__title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
 
 .franchise__boxes {
   display: flex;
@@ -374,9 +379,9 @@ body {
   text-align: center;
   margin-bottom: 128px;
   color: #31529a;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 34px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 .review__content {
@@ -464,11 +469,15 @@ body {
 .question__text {
   color: #31529a;
   margin-bottom: 40px;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
+  
 }
-
+.question__title{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+}
 .question__answers {
   display: flex;
   justify-content: center;
@@ -533,9 +542,9 @@ body {
 .cform__title {
   padding-top: 40px;
   font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 30px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 .cform__input {
@@ -609,14 +618,19 @@ textarea {
 .footer__menu-list {
   color: white;
   margin-top: 40px;
-  margin-left: 122px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
 }
 
+.footer__menu-list:last-child {
+  margin-left: 127px;
+}
+  
 .footer__menus {
   color: white;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+ 
 }
 
 .footer__menu-title {
