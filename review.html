@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Franchise frntend</title>
+
+</head>
+<body>
+
+
+    <nav class="nav">
+        <div class="nav__content container">
+            <a href="" class="nav__logo"> <img src="./images/Codify logo — синий 1.svg" alt=""></a>
+            <ul class="nav__items">
+                <li class="nav__item">
+                     <a class="nav-color menu" href="#">О нас</a> </li>
+                <li class="nav__item">
+                     <a class="nav-color menu" href="#">Команда</a></li>
+                <li class="nav__item">
+                     <a class="nav-color menu"  href="#">Франчайзинг</a></li>
+                <li class="nav__item">
+                     <a class="nav-color menu"  href="#">Отзывы</a></li>
+                <li class="nav__item">
+                     <a class="nav-color menu"  href="#">Контакты</a></li>
+         </ul>
+
+         <select class="local" name="local" id="local" onchange="local()">
+            <option value="ru">RU</option>
+            <option value="ky">KY</option>
+            <option value="en">EN</option>
+        </select>
+        </div>
+    </nav>
+
+    <div class="header">
+       <img src="./images/back__header.png" alt="" class="header__back">
+      <div class="container header__content">
+       <h1 class="header__title">Франшиза академии программирования </h1>
+       <h2 class="header__desck">CODIFY</h2>
+       <a href="" class="btn">Оставить заявку</a>
+    </div>
+       <img src="./images/header__img.png" alt="" class="header__img">
+    </div>
+
+    <div class="business">
+        <div class="container business__content">
+        <h2 class="bus__title">Шаги к Вашему успешному бизнесу</h2>
+
+        <div class="bus__cards">
+            <div class="bus__card"><img class="bus__img" src="./images/sorkl.svg" alt=""> <p class="bus_descr"> Мы Вас проконсультируем</p></div>
+            <div class="bus__card"><img class="bus__img" src="./images/sorkl.svg" alt=""> <p class="bus_descr"> Передадим материалы
+                и всему обучим</p></div>
+            <div class="bus__card"><img class="bus__img" src="./images/sorkl.svg" alt=""> <p class="bus_descr"> Поддержим в открытии
+                Вашей академии</p></div>
+        </div>
+        </div>
+    </div>
+
+    <div class="academy">
+        <div class="container academy__content">
+            <div class="academy__right">
+                <h2 class="academy__title">О нашей академии</h2>
+                <p class="academy__descr">CODIFY ACADEMY - один из проектов группы компаний CODIFY-академия IT профессий, где мы обучаем взрослых и детей востребованным IT профессиям с нуля. Академия аккредитована образовательной лицензией от МОиН в Кыргызстане. Менторы Codify - это специалисты с многолетним опытом, которые хотят внести вклад в равитие IT сообщества в Кыргызстане и способствовать росту потенциала IT индустрии в целом.  Мы разработали уникальную методику обучения и авторские программы обучения совместно с экспертами в сфере IT. Мы проводим не только обучающие курсы, так и проводим мероприятия - мастер-классы, митапы, воркшопы - с опытными специалистами в сфере IT технологий.
+                </p>
+            </div>
+            <div class="academy__left">
+                <img src="./images/academy__img.png" alt="" class="academy__img">
+            </div>
+        </div>
+    </div>
+    
+    <div class="numbers">
+        <div class="container numbers__content">
+            <h2 class="numbers__title">Мы в цифрах</h2>
+            <div class="numbers__cards">
+                <div class="numbers__card"> <h3 class="numbers__card-title">С 2019
+                    </h3> <p class="numbers__card-descr">года</p>
+                </div>
+
+                <div class="numbers__card"> <h3 class="numbers__card-title">1000+
+                    </h3> <p class="numbers__card-descr">Выпускников</p>
+                </div>
+
+                <div class="numbers__card"> <h3 class="numbers__card-title"> 50+
+                    </h3> <p class="numbers__card-descr">Преподователей</p>
+                </div>
+
+                <div class="numbers__card"> <h3 class="numbers__card-title">20+
+                    </h3> <p class="numbers__card-descr">Курсов</p>
+                </div>
+
+                <div class="numbers__card"> <h3 class="numbers__card-title">10+
+                    </h3> <p class="numbers__card-descr">Партнеров</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="comand">
+        <div class="container comand__content">
+            <h2 class="comand__title">Команда Codify</h2>
+            
+            <div class="comand__cards">
+                <div class="comand__card">
+                    <img src="./images/comand_img.png" alt="" class="comand__img">
+                    <h2 class="comand__card-title">Основатель Codify</h2>
+                    <p class="comand__card-descr">Дина Руслан</p>
+                </div>
+
+                <div class="comand__card">
+                    <img src="./images/comand_img.png" alt="" class="comand__img">
+                    <h2 class="comand__card-title">Администратор </h2>
+                    <p class="comand__card-descr">Дана Бактыбековна</p>
+                </div>
+
+                <div class="comand__card">
+                    <img src="./images/comand_img.png" alt="" class="comand__img">
+                    <h2 class="comand__card-title">Ментор UX\UI</h2>
+                    <p class="comand__card-descr">Юлиан Худоложкин</p>
+                </div>
+
+                <div class="comand__card">
+                    <img src="./images/comand_img.png" alt="" class="comand__img">
+                    <h2 class="comand__card-title">Ментор JavaScript</h2>
+                    <p class="comand__card-descr">Никита Ногай</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="fransh">
+        <div class="container fransh__content">
+            
+            <h2 class="fransh__title">Франшиза Codify</h2>
+            <div class="fransh__info">
+                <img src="./images/fransh_info1.png" alt="" class="fransh__info-img">
+                <div class="fransh_photo">
+                </div>
+                <div class="fransh__text">
+                    <p class="fransh__info-descr">Франшиза CODIFY — это возможность открыть филиал одной из лидирующих компаний на рынке дополнительного IT-образования для взрослых и детей.
+                        Мы запустили направление франшизы в начале 2021 году. К нашей команде франчайзи присоединились более 10 предпринимателей.
+                        С франшизой CODIFY вы сможете открыть собственный филиал академии в вашем городе и получите все материалы для эффективного обучения, продвижения, 
+                        а также постоянную помощь и информационную поддержку от нас.
+                    </p>
+                     <img src="./images/Line 1.svg" alt="" class="fransh__line">
+                </div>
+               
+            </div>
+
+            <h2 class="fransh__title">Франшиза взрослой академии</h2>
+            <div class="fransh__info">
+                <div class="fransh__text">
+                    <p class="fransh__info-descr">В Codify академия программирования и дизайна мы предлагаем курсы
+                        для взрослых по таким направлениям, как Веб-разработка, Мобильная 
+                        разработка, Тестирование и Обеспечение качества, Проектный и Продуктовый менеджмент, Графический и веб-дизайн и т.д.
+                        В течение курса студентам помогают ассистенты ментора, а на последних 
+                        месяцах обучения студенты работают над реальными проектами и стажируются в студии при академии Codify, улучшают свои технические навыки и пополняют своё портфолио, проходят курс по подготовке к трудоустройству и получают консультации в составлении резюме.                        
+                    </p>
+                    <a href="" class="btn fransh__btn">Посетить сайт</a>
+                     <img src="./images/Line 1.svg" alt="" class="fransh__line">
+                </div>
+
+                <div class="fransh_photo"><img src="./images/fransh_info2.png" alt="" class="fransh__info-img"></div>
+
+               
+            </div>
+
+            <h2 class="fransh__title">Франшиза детской академии</h2>
+            <div class="fransh__info">
+                <div class="fransh_photo"><img src="./images/fransh_info3.png" alt="" class="fransh__info-img"></div>
+                <div class="fransh__text">
+                    <p class="fransh__info-descr">В Codify академия программирования и дизайна мы предлагаем курсы
+                        для детей и подростков от 6 до 17 лет по таким направлениям, как Scratch, Вёрстка и разработка веб-сайтов, Программирование на Python, 
+                       Графический Дизайн, Цифровой рисунок и т.д. Наши программы направлены на формирование у детей алгоритмического и креативного мышления. Мы постоянно контролируем качество курсов: разговариваем с родителями, оцениваем их отзывы, корректируем программы, внедряем новые методики. В любой курс входят также бонусные уроки IT английского языка, курс по профориентации, мастер-классы для детей и родителей. В течение курса студентам помогают ассистенты ментора, а к концу курса ученики защищают свои выпускные работы и получают сертификаты.
+                    </p>
+                    <a href="" class="btn fransh__btn">Посетить сайт</a>
+                     <img src="./images/Line 1.svg" alt="" class="fransh__line">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Otsyuda nachiaetsya kod Ernes -->
+    <section class="franchise">
+      
+        <div class="franchise__text">
+          <h2 class="franchise__title">Приемущества франшизы</h2>
+        </div>
+        <div class="container franchise__content">
+        <div class="franchise__boxes">
+          <div class="franchise__box">
+            <img src="./images/codifyicon.svg" alt="" class="franchise__img" />
+            <p class="franchise__descr">Узнаваемый бренд  с отличной <br> репутацией</p>
+          </div>
+        
+        <div class="franchise__box">
+          <img src="./images/star.svg" alt="" class="franchise__img" />
+          <p class="franchise__descr">Высокие стандарты работы
+            административной команды</p>
+        </div>
+        <div class="franchise__box">
+          <img src="./images/crm.svg" alt="" class="franchise__img" />
+          <p class="franchise__descr">CRM|LMS система <br>
+            для автоматизации процессов
+            </p>
+        </div>
+        <div class="franchise__box">
+          <img src="./images/personal.svg" alt="" class="franchise__img" />
+          <p class="franchise__descr">Персональный <br> менеджер <br> и поддержка</p>
+        </div>
+        <div class="franchise__box">
+          <img src="./images/books.svg" alt="" class="franchise__img" />
+          <p class="franchise__descr">Поддержим в открытии Вашей академии</p>
+        </div>
+        <div class="franchise__box">
+          <img src="./images/materials.svg" alt="" class="franchise__img" />
+          <p class="franchise__descr">Материалы <br> партнёра</p>
+        </div>
+        <div class="franchise__box">
+          <img src="./images/okay.svg" alt="" class="franchise__img" />
+          <p class="franchise__descr">Высокое <br> качество курсов
+          </p>
+        </div>
+      </div>
+    </div>
+      
+    </section>
+
+    <section class="review">
+      
+      <div class="review__text">
+        <h2 class="review__title">Отзывы</h2>
+      </div>
+         
+
+          <div class="container review__content">
+            <div class="review__images">
+              <div class="review__box">
+                <h3 class="review__subtitle">Хайдарова Екатерина</h2>
+                  <p class="review__descr">Окончила курс «Веб-дизайн и дизайн мобильных интерфейсов».
+                    Преподаватель Худоложкин Юлиан. Большое спасибо Codify... <a href="">Далее</a>
+              
+                   <div class="review__polygon">
+                     <img src="./images/Polygon 2.png" alt="" class="">
+                   </div>
+                </div>
+                
+              <div class="review__img-1">
+              <img src="./images/reviewimages.png" alt="" class="">
+            </div>
+            <div class="review__img-2">
+            <img src="./images/reviewimages2.png" alt="" class="">
+            </div>
+            <div class="review__img-3">
+              <img src="./images/reviewimages2.png" alt="" class="">
+            </div>
+            <div class="review__img-4">
+              <img src="./images/reviewimages2.png" alt="" class="">
+            </div>
+          </div>
+            </div>
+          </div>
+            
+    </section>
+
+
+    <section class="question">
+      
+        <div class="question__text">
+          <h2 class="question__title">Часто задаваемые вопросы</h2>
+        </div>
+
+        <div class="container question__content">
+        <div class="question__answers">
+          <div class="question__img">
+            <img src="./images/plusicon.svg" alt="" class="">
+          </div> 
+          <div class="question__subtitle">Какой ноутбук нужно преобрести для занятий?</div>
+        </div>
+        <div class="question__answers">
+          <div class="question__img">
+            <img src="./images/plusicon.svg" alt="" class="">
+          </div> 
+          <div class="question__subtitle">Какой ноутбук нужно преобрести для занятий?</div>
+        </div>
+        <div class="question__answers">
+          <div class="question__img">
+            <img src="./images/plusicon.svg" alt="" class="">
+          </div> 
+          <div class="question__subtitle">Какой ноутбук нужно преобрести для занятий?</div>
+        </div>
+        <div class="question__answers">
+          <div class="question__img">
+            <img src="./images/plusicon.svg" alt="" class="">
+          </div> 
+          <div class="question__subtitle">Какой ноутбук нужно преобрести для занятий?</div>
+        </div>
+        <div class="question__answers">
+          <div class="question__img">
+            <img src="./images/plusicon.svg" alt="" class="">
+          </div> 
+          <div class="question__subtitle">Какой ноутбук нужно преобрести для занятий?</div>
+        </div>
+        <div class="question__answers">
+          <div class="question__img">
+            <img src="./images/plusicon.svg" alt="" class="">
+          </div> 
+          <div class="question__subtitle">Какой ноутбук нужно преобрести для занятий?</div>
+        </div>
+        <p class="question__descr">Присоединяйтесь к нашей команде, откройте свою академию и обучайте <br>
+          самым востребованным и современным профессиям и навыкам других в вашем городе!
+          </p>
+      </div>
+    </section>
+
+
+    <section class="cform">
+      <div class="container cform__content">
+        <div class="cform__text">
+          <h2 class="cform__title">Оставьте заявку</h2>
+        </div>
+         <div class="cform__box">
+        <div class="cform__left">
+          <div class="cform__input">
+            <input placeholder= "Email" type="text" class="cform__input-box">
+          </div>
+          <div class="cform__input">
+            <input placeholder= "Имя" type="text" class="cform__input-box">
+          </div>
+          <div class="cform__input">
+            <input placeholder= "Телефон" type="text" class="cform__input-box">
+          </div>
+        </div>
+
+        <div class="cform__right">
+          <div class="cform__comment">
+          <textarea id="" name="" rows="10" cols="60">
+            Комментарий
+            </textarea>
+          </div>
+          </div>
+         </div>
+        <button class="cform__btn">Оставить заявку</button>
+      </div> 
+   </div>
+    </section>
+   <footer class="footer">
+     <div class="container footer__content">
+        <div class="footer__left">
+      <div class="footer__menu">
+
+        <div class="footer__menu-list">
+          <ul class="footer__menus">
+            <li class="footer__menu-title">Контакты</a></li>
+            <li class="footer__menu-descr">Исанова105\3</li>
+            <li class="footer__menu-descr">+996 770 431 430</li>
+            <li class="footer__menu-descr">+996 770 431 430</li>
+            <li class="footer__menu-descr">+996 550 431 430</li>
+          </ul>
+        </div>
+        <div class="footer__menu-list">
+          <ul class="footer__menus">
+            <li class="footer__menu-title">Проекты</a></li>
+            <li class="footer__menu-descr"><a href="">Codify Lab</a></li>
+            <li class="footer__menu-descr"><a href="">Codify Media</a></li>
+            <li class="footer__menu-descr"><a href="">Codify Academy</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__right">
+      <div class="footer__links">
+        <a href="" class="footer__link"><img src="./images/whatsapp.svg" alt="" class=""></a>
+        <a href="" class="footer__link"><img src="./images/telegram (1).svg" alt="" class=""></a>
+        <a href="" class="footer__link"><img src="./images/facebook.svg" alt="" class=""></a>
+        <a href="" class="footer__link"><img src="./images/instagramicon.svg" alt="" class=""></a>
+        <a href="" class="footer__link"><img src="./images/youtube.svg" alt="" class=""></a>
+        <a href="" class="footer__link"><img src="./images/linkedin.svg" alt="" class=""></a>
+    </div>
+    <div class="footer__arrow">
+      <img src="./images/arrowup.svg" alt="" class="footer__arrow-icon">
+    </div>
+   </div>
+  </div>
+   
+   </footer>
+  
+    <script>
+        function local(){
+            var lang=document.getElementById('local');
+            var menu=document.getElementsByClassName('menu');
+            switch (lang.value){
+                case 'en':
+                    menu[0].text='About us';
+                    menu[1].text='Komand';
+                    menu[2].text='Franchaizing';
+                    menu[3].text='Otzuvy';
+                    menu[4].text='Call';
+                    break;
+
+                case 'ru':
+                    menu[0].text='О нас';
+                    menu[1].text='Команда';
+                    menu[2].text='Франчайзинг';
+                    menu[3].text='Отзывы';
+                    menu[4].text='Контакты';
+                    break;
+
+                case 'ky':
+                    menu[0].text='Биз жонундо';
+                    menu[1].text='Команда';
+                    menu[2].text='Франчайзинг';
+                    menu[3].text='Отзывы';
+                    menu[4].text='Контакты';
+                    break;
+
+            }
+        }
+    </script>
+</body>
+</html>
+
