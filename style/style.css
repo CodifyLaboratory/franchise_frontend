@@ -363,6 +363,14 @@ body {
   text-align: center;
 }
 
+.review__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review__images{
+  background: #31529a;
+}
 .review__title {
   text-align: center;
   margin-bottom: 20px;
@@ -403,35 +411,18 @@ body {
   padding-left: 8px;
   padding-top: 8px;
 }
-
+.review__title-w{
+  margin-bottom: 128px;
+}
 .review__images {
   max-width: 1440px;
   width: 100%;
   min-height: 270px;
   display: flex;
-  background: #31529a;
   box-sizing: border-box;
+  position: relative;
 }
 
-.review__img-1 {
-  margin-left: 0px;
-  margin-top: 45px;
-}
-.review__img-2 {
-  margin-left: 175px;
-  margin-top: 55px;
-}
-
-.review__img-3 {
-  margin-left: 175px;
-  margin-top: 55px;
-}
-
-.review__img-4 {
-  margin-left: 175px;
-  margin-top: 55px;
-  padding-right: 130px;
-}
 
 .question {
   margin-top: 80px;
@@ -618,11 +609,26 @@ body {
   padding-right: 70px;
 }
 
+.footer__right{
+  position: relative;
+}
+.footer__coll{
+  color: #ffffff;
+}
+
 .footer__arrow-icon {
-  margin-top: 203px;
-  margin-bottom: 40px;
+  position: absolute;
   box-sizing: border-box;
   background: #31529a;
   border-radius: 50px;
   padding: 18px;
+  bottom: 0;
+  right: 0;
+}
+.descr{
+  font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #31529A;
 }
