@@ -631,8 +631,23 @@ body {
   }
 }
 
-@media (max-width: 850px) {
-  .nav__item {
+@media (max-width: 900px) {
+  .nav__items {
     display: none;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .nav__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .nav__logo {
+    display: none;
+  }
+
+  .header__img {
+    display: block;
   }
 }
