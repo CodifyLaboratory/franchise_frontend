@@ -632,3 +632,11 @@ line-height: 24px;
 text-align: center;
 color: #31529A;
 }
+
+
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0px 16px;
+  }
+}
