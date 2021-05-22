@@ -599,7 +599,6 @@ textarea {
 .footer__menu {
   display: flex;
   justify-content: space-between;
-  text-decoration: underline;
   color: white;
 }
 
@@ -611,17 +610,20 @@ textarea {
 
 .footer__menus {
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
 
 .footer__menu-title {
   padding-bottom: 38px;
+  
 }
 
 .footer__menu-descr {
   padding-bottom: 20px;
+  text-decoration: underline;
+
 }
 
 .footer__links {
