@@ -315,17 +315,20 @@ body {
 
 .franchise {
   width: 100%;
-  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .franchise__text {
   align-items: center;
   text-align: center;
   margin-bottom: 40px;
-  font-style: normal;
   color: #31529a;
 }
-
+.franchise__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
 .franchise__boxes {
   display: flex;
   flex-wrap: wrap;
@@ -334,7 +337,7 @@ body {
 .franchise__box {
   max-width: 280px;
   width: 100%;
-  height: 200px;
+  min-height: 200px;
   background: #31529a;
   border-radius: 20px;
   color: white;
@@ -357,19 +360,23 @@ body {
 .franchise__descr {
   width: 100%;
   height: 80px;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
   align-items: center;
   text-align: center;
+  padding-bottom: 6px;
+
 }
 
 .review {
   position: relative;
+  margin-top: 80px;
 }
 .review__content {
   max-width: 1440px;
   width: 100%;
   background: #31529a;
- 
 }
 
 .review__text {
@@ -377,7 +384,7 @@ body {
   margin-bottom: 20px;
   color: #31529a;
 }
-.review__title{
+.review__title {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
@@ -418,14 +425,12 @@ body {
 }
 .review__title {
   margin-bottom: 128px;
-
 }
 
 .review__polygon {
   position: absolute;
   top: 86%;
   right: 71%;
-  
 }
 
 .review__images {
@@ -439,8 +444,6 @@ body {
   margin-left: 130px;
   padding-top: 45px;
 }
-
-
 
 .review__img-4 {
   margin-right: 280px;
