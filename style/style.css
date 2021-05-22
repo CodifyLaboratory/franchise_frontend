@@ -397,8 +397,8 @@ body {
   margin-left: 100px;
   margin-top: 84px;
   position: absolute;
-  top: -2%;
-  right: 65%;
+  top: -1%;
+  right: 63%;
 }
 
 .review__subtitle {
@@ -584,8 +584,7 @@ textarea {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  position: static;
-  padding-bottom: 12px;
+
 }
 
 .footer {
