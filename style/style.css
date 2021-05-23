@@ -12,7 +12,7 @@ ul {
   list-style: none;
 }
 body {
-  background-image: url(../images/back__all.png);
+  background-image: url(../images/bodypng.png);
 }
 .container {
   max-width: 1200px;
@@ -25,6 +25,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 25;
+
 }
 .nav__content {
   display: flex;
@@ -165,6 +166,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 116px;
 }
 .academy__title {
   font-weight: 600;
@@ -503,6 +505,14 @@ body {
   line-height: 24px;
   text-align: center;
   color: #31529a;
+}
+
+.cform__comment{
+  height: 100%;
+}
+
+.cform__comment textarea {
+  height: 100%;
 }
 
 .cform__content {
